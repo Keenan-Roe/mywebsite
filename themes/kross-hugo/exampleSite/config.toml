@@ -56,7 +56,9 @@ logo = ""
 # theme color
 theme_color = "#41228e"
 # contact info
+phone = "(217)-220-3097"
 email = "kroe4@uic.edu"
+address = "1907 W Wilson Ave. APT 2B, Chicago IL 60640"
 # meta description
 author = "Keenan Roe"
 description = "This is meta description"
