@@ -34,11 +34,11 @@ params:
     enable: yes
     preloader: images/preloader.gif
   social:
-    - URL: '#'
+    - URL: 'kroe4@uic.edu'
       icon: ti-email
-    - URL: '#'
+    - URL: 'https://www.linkedin.com/in/keenan-roe-128961220/'
       icon: ti-linkedin
-    - URL: '#'
+    - URL: 'https://github.com/Keenan-Roe'
       icon: ti-github
   theme_color: '#41228e'
 menu:
