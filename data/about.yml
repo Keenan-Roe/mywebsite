@@ -3,14 +3,14 @@ work_process:
   enable : true
   title : "Work Process"
   item:
-  - title : "Research and Plan"
+  - title : "Plan the approach"
     icon : "images/icons/plan.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    content : "Perform exploratory analysis to both get an idea of simple facets of the data as well as determine the models and methods that are best used for the desired analysis."
     
-  - title : "Design and Develop"
+  - title : "Visualize the Data"
     icon : "images/icons/design.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    content : "After utilizing the correct models create simple and effective visual aids to convey the basic structure of the data and form predictions based off the data."
     
   - title : "Deliver"
     icon : "images/icons/print.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    content : "Clearly and precisely present my findings that is accessible to those with varying backgrounds in data analytics."
