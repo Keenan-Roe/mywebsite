@@ -46,7 +46,7 @@ education:
 # service
 service:
   enable : true
-  title : "Services"
+  title : "Interests"
   item:
     - title : "Data Visualization"
       icon : "ti-bar-chart"
@@ -59,7 +59,7 @@ service:
       highlighted : true
 
     - title : "Reporting"
-      icon : "ti-microphone"
+      icon : "ti-pencil-alt"
       content : "Devolop reports based on my interpretation and visualized statistical findings"
       highlighted : false
 

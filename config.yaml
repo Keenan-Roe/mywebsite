@@ -1,4 +1,4 @@
-baseURL: http://examplesite.com
+baseURL: https://keenanroe.netlify.app/
 languageCode: en-us
 summaryLength: '10'
 theme: kross-hugo
@@ -7,9 +7,6 @@ params:
   author: Keenan Roe
   baidu_analytics_id: ''
   baidu_site_verification: ''
-  contact:
-    enable: yes
-    form_action: '#'
   copyright: Copyright &copy; 2021 a Theme by [Gethugothemes](https://gethugothemes.com)
   description: This is meta description
   email: kroe4@uic.edu
