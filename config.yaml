@@ -43,6 +43,7 @@ params:
     - URL: 'https://github.com/Keenan-Roe'
       icon: ti-github
   theme_color: '#41228e'
+  math:true
 menu:
   main:
     - URL: about
