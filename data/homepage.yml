@@ -38,47 +38,36 @@ education:
   enable : true
   title : "Education"
   item:
-    - title : "Marters in UX Design"
-      year : "2006"
-      academy : "Masassusets Institute of Technology"
-      
-    - title : "Honours in Fine Arts"
-      year : "2004"
-      academy : "Harvard University"
-      
-    - title : "Higher Secondary Certificat"
-      year : "2000"
-      academy : "Cardiff School"
-      
-    - title : "Secondary School Certificate"
-      year : "1998"
-      academy : "Cardiff School"
+    - title : "Bachelor of Science Majoring in Statistics"
+      year : "2020"
+      academy : "University of Illinois - Chicago"
+
 
 # service
 service:
   enable : true
   title : "Services"
   item:
-    - title : "UI Design"
-      icon : "ti-palette"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    - title : "Data Visualization"
+      icon : "ti-bar-chart"
+      content : "Manipulate and display relavant data in a clear and easy to understand fashion"
       highlighted : false
 
-    - title : "UX Design"
+    - title : "Data Interpretation"
       icon : "ti-vector"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      content : "Interpret data using statistical techniquesand effectively communicate findings."
       highlighted : true
 
-    - title : "Interaction Design"
-      icon : "ti-panel"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    - title : "Reporting"
+      icon : "ti-microphone"
+      content : "Devolop reports based on my interpretation and visualized statistical findings"
       highlighted : false
 
 # portfolio
 portfolio:
   enable : true
   title : "Portfolio"
-  item_show : 5
+  item_show : 3
   # portfolio item comes from 'data/portfolio.yml' item.
 
 
