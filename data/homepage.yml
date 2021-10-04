@@ -71,8 +71,3 @@ portfolio:
   # portfolio item comes from 'data/portfolio.yml' item.
 
 
-# blog
-blog:
-  enable : true
-  title : "Blogs"
-  # blog post comes from "content/blog" folder

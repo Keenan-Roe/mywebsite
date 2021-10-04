@@ -3,6 +3,10 @@ languageCode: en-us
 summaryLength: '10'
 theme: kross-hugo
 title: Keenan Roe
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 params:
   author: Keenan Roe
   baidu_analytics_id: ''
@@ -48,15 +52,12 @@ menu:
     - URL: about
       name: About
       weight: 1
-    - URL: blog
-      name: Blog
-      weight: 2
     - URL: resume
       name: Resume
-      weight: 3
+      weight: 2
     - URL: portfolio
       name: Portfolio
-      weight: 4
+      weight: 3
     - URL: contact
       name: Contact
-      weight: 5
+      weight: 4
