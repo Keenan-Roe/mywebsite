@@ -1,0 +1,54 @@
+---
+title: Logistic regression
+author: Keenan Roe
+date: '2021-10-23'
+slug: []
+categories:
+  - Regression
+tags:
+  - Logistic Regression
+  - Regression
+  - R
+image: images/portfolio/item-1.png
+---
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+```{r eval=TRUE, echo=TRUE}
+
+
+mydata<-read.csv("diabetes2.csv")
+
+require("corrplot")
+library(aod)
+library(ggplot2)
+attach(mydata)
+
+summary(mydata)
+
+dataIQR<-sapply(mydata, IQR)
+
+boxplot(mydata)
+
+boxplot(BloodPressure, Glucose, names = c("Blood Pressure", "Glucose"), col=c("Red", "Gold"))
+
+boxplot(SkinThickness, BMI, Age, Pregnancies, names=c("Skin Thiccness", "BMI", "Age", "Pregnancies"), col=c("Magenta", "darkslategray1", "lightsalmon", "blue"))
+
+boxplot(Insulin, col=c("Red"))
+
+length(Insulin)
+boxplot(Insulin[!Insulin %in% boxplot.stats(Insulin)$out])
+
+newVect<-Insulin[!Insulin %in% boxplot.stats(Insulin)$out & Insulin!=0]
+newVect1<-Outcome[!Insulin %in% boxplot.stats(Insulin)$out & Insulin!=0]
+
+boxplot(newVect~newVect1, col=c("blue"), border=c("red") , frame=F)
+
+
+```
