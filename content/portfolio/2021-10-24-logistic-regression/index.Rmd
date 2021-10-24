@@ -9,4 +9,17 @@ tags:
   - Logistic Regression
   - Regression
   - R
+image: images/portfolio/item-9.png
 ---
+
+# Logistic Regression
+
+```{r eval=TRUE, echo=TRUE}
+
+summary(mydata)
+
+dataIQR<-sapply(mydata, IQR)
+
+boxplot(mydata)
+
+```
