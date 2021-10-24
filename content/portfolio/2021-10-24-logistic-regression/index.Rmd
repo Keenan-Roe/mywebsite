@@ -1,0 +1,12 @@
+---
+title: Logistic Regression
+author: Keenan Roe
+date: '2021-10-24'
+slug: []
+categories:
+  - Regression
+tags:
+  - Logistic Regression
+  - Regression
+  - R
+---
