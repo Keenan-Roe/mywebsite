@@ -1,14 +1,13 @@
 ---
-title: Logistic regression
-author: Keenan Roe
+title: "Logistic regression"
+author: "Keenan Roe"
 date: '2021-10-23'
 slug: []
-categories:
-  - Regression
+categories: Regression
 tags:
-  - Logistic Regression
-  - Regression
-  - R
+- Logistic Regression
+- Regression
+- R
 image: images/portfolio/item-9.png
 ---
 
@@ -22,25 +21,3 @@ knitr::opts_chunk$set(echo = TRUE)
 
 This is my first attempt at logistic Regresssion
 
-```{r eval=FALSE, echo=FALSE}
-
-
-mydata<-read.csv("diabetes2.csv")
-
-require("corrplot")
-library(aod)
-library(ggplot2)
-attach(mydata)
-
-```
-
-```{r eval=TRUE, echo=FALSE}
-
-summary(mydata)
-
-dataIQR<-sapply(mydata, IQR)
-
-boxplot(mydata)
-
-
-```
