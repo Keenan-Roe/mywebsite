@@ -20,6 +20,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Logistic regression
 
+This is my first attempt at logistic Regresssion
+
 ```{r eval=FALSE, echo=FALSE}
 
 
