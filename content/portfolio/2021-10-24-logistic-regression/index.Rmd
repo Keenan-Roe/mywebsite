@@ -14,11 +14,12 @@ image: images/portfolio/item-9.png
 
 # Logistic Regression
 
-```{r eval=TRUE, echo=TRUE}
+```{r eval=TRUE, echo=FALSE}
+
+mydata<-read.csv("diabetes2.csv")
 
 summary(mydata)
 
-dataIQR<-sapply(mydata, IQR)
 
 boxplot(mydata)
 
