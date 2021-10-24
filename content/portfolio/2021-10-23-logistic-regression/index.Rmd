@@ -9,7 +9,7 @@ tags:
   - Logistic Regression
   - Regression
   - R
-image: images/portfolio/item-1.png
+image: images/portfolio/item-9.png
 ---
 
 
@@ -18,9 +18,9 @@ image: images/portfolio/item-1.png
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+## Logistic regression
 
-
-```{r eval=TRUE, echo=TRUE}
+```{r eval=FALSE, echo=FALSE}
 
 
 mydata<-read.csv("diabetes2.csv")
@@ -30,25 +30,15 @@ library(aod)
 library(ggplot2)
 attach(mydata)
 
+```
+
+```{r eval=TRUE, echo=FALSE}
+
 summary(mydata)
 
 dataIQR<-sapply(mydata, IQR)
 
 boxplot(mydata)
-
-boxplot(BloodPressure, Glucose, names = c("Blood Pressure", "Glucose"), col=c("Red", "Gold"))
-
-boxplot(SkinThickness, BMI, Age, Pregnancies, names=c("Skin Thiccness", "BMI", "Age", "Pregnancies"), col=c("Magenta", "darkslategray1", "lightsalmon", "blue"))
-
-boxplot(Insulin, col=c("Red"))
-
-length(Insulin)
-boxplot(Insulin[!Insulin %in% boxplot.stats(Insulin)$out])
-
-newVect<-Insulin[!Insulin %in% boxplot.stats(Insulin)$out & Insulin!=0]
-newVect1<-Outcome[!Insulin %in% boxplot.stats(Insulin)$out & Insulin!=0]
-
-boxplot(newVect~newVect1, col=c("blue"), border=c("red") , frame=F)
 
 
 ```
