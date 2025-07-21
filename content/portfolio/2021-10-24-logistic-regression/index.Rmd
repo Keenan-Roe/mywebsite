@@ -12,7 +12,7 @@ tags:
 image: images/portfolio/item-9.png
 ---
 
-# Logistic Regression
+## Logistic Regression
 
 ```{r eval=TRUE, echo=FALSE}
 
