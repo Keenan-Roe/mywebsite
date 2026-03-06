@@ -1,0 +1,21 @@
+---
+title: Test post
+author: Keenan Roe
+date: '2026-03-06'
+slug: []
+categories:
+  - Test
+tags:
+  - R
+image: "/static/images/iconsplan.png"
+---
+
+## Test post with Rmarkdown 
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r eval=TRUE, echo=FALSE}
+print("Hello this is a test post")
+```
