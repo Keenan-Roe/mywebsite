@@ -14,13 +14,33 @@ image: images/portfolio/item-9.png
 
 ## Logistic Regression
 
-```{r eval=TRUE, echo=FALSE}
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 
+```{r eval=TRUE, echo=FALSE}
 mydata<-read.csv("diabetes2.csv")
+
+library(corrplot)
+library(aod)
+library(ggplot2)
+attach(mydata)
 
 summary(mydata)
 
+boxplot(mydata)
+
+dataIQR<-sapply(mydata, IQR)
 
 boxplot(mydata)
+
+boxplot(BloodPressure, Glucose, names = c("Blood Pressure", "Glucose"), col=c("Red", "Gold"))
+
+boxplot(SkinThickness, BMI, Age, Pregnancies, names=c("Skin Thiccness", "BMI", "Age", "Pregnancies"), col=c("Magenta", "darkslategray1", "lightsalmon", "blue"))
+
+boxplot(Insulin, col=c("Red"))
+
+length(Insulin)
+boxplot(Insulin[!Insulin %in% boxplot.stats(Insulin)$out])
 
 ```
