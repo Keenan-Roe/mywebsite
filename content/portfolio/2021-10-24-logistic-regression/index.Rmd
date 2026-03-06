@@ -1,14 +1,16 @@
 ---
 title: "Logistic Regression"
 author: "Keenan Roe"
-date: '2021-10-24'
-output: pdf_document
+date: "2021-10-24"
+output:
+  html_document:
+    df_print: paged
 categories: Regression
 tags:
 - Logistic Regression
 - Regression
 - R
-image: images/portfolio/item-9.png
+image: "images/portfolio/item-9.png"
 slug: []
 ---
 
