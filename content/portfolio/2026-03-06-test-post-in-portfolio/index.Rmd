@@ -1,0 +1,19 @@
+---
+title: test post in portfolio
+author: Keenan Roe
+date: '2026-03-06'
+slug: []
+categories:
+  - Test
+tags:
+  - R
+image: "/static/images/iconsplan.png"
+---
+
+## Test post with Rmarkdown 
+
+```{r eval=TRUE, echo=FALSE}
+
+print("This is a test")
+
+```
