@@ -2,13 +2,14 @@
 title: "Logistic Regression"
 author: "Keenan Roe"
 date: '2021-10-24'
-slug: []
+output: pdf_document
 categories: Regression
 tags:
 - Logistic Regression
 - Regression
 - R
 image: images/portfolio/item-9.png
+slug: []
 ---
 
 ## Logistic Regression
@@ -26,6 +27,8 @@ library(ggplot2)
 attach(mydata)
 
 summary(mydata)
+
+summary(Glucose)
 
 boxplot(mydata)
 
